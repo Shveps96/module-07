@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+  }
+  
+  /* HEADER */
+
+  .header {
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    margin-top: 50px;
+  }
+
+  .main_menu {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+.logo {
+  color: #fed136;
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+  .menu_item {
+    list-style: none;
+  }
+
+  .menu_item a {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu_item a:hover {
+    color: #fed136;
+  }
+
+    /* SERVICE SECT */  
+
+.service {
+    width: 100%;
+    margin: 0 auto;
+}
+
+  .title {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .sub_title {
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .features {
+    width: 940px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; 
+  }
+
+  .features_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .features_list_item {
+    flex-basis: 289px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 125px;
+    text-align: center;
+    margin-right: 35px;
+  }
+
+  .features_list_item:last-child {
+    margin-right: 0;
+  }
+  
+  .features_block {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+
+  .block_text {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-style: 14px;
+    color: #777777;
+  }
+
+
+  .item_img {
+    position: absolute;
+    margin: 15px 0px 0px -20px;
+  }
+
+  .item_img_1 {
+    position: absolute;
+    margin: 15px 0px 0px -14px;
+  }
+
+.circle_1 {
+  margin-bottom: 28px;
+}
+
+.circle:hover {
+cursor: pointer;
+}
+
+.item_img:hover {
+  cursor: pointer;
+}
+
+.item_img_1:hover {
+  cursor: pointer;
+}
+
+    /* CONTACT SECT */
+
+.contacts {
+  width: auto;
+  height: 677px;
+  margin: 0 auto;
+  display: block;
+  background: #222222;
+}
+
+.title_1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+.title_top_1 {
+  padding-top: 110px;
+}
+
+.wrap {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;  
+}
+
+.message_holder {
+  width: 455px;
+  height: 210px;
+  resize: none;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.block_1 {
+  margin-right: 28px;
+}
+
+.name_holder {
+  width: 455px;
+  height: 52px;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.mail_holder {
+  width: 455px;
+  height: 52px;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.subject_holder {
+  width: 455px;
+  height: 52px;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.img_bg {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 129px;
+}
+
+button {
+  width: 240px;
+  height: 66px;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background: #fed136;
+}
+
+.send_massage {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+input:invalid:focus {
+  outline: 3px solid red;
+  outline-offset: -8px;
+ }
+ input:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+ }
+
+ textarea:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+ }
+
+ textarea:invalid:focus {
+  outline: 3px solid red;
+  outline-offset: -8px;
+ }
